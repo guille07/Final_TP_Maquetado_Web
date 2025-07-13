@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto Landing Pages</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
+	    referrerpolicy="no-referrer" />
+		
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search_
+	&icon_names=home_&icon_names=menu_&icon_names=star_&icon_names=attach_money" />
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	
+	
+	<!--Archivos CSS y JS de LIBRERIAS  GLIGHTBOX-->
+	<link rel="stylesheet" href="pages/glightbox.css" />
+	<script src="pages/glightbox.min.js"></script>
+	
+	<link rel="stylesheet" href="pages/estilo.css" />	
+	<link rel="shortcut icon" href="iconos/favicon.png" type="image/x-icon">
+</head>
+<body>
+	<header id="inicio">
+		<div class="section-principal ">
+		<h1><a href="#">Logo App</a></h1>
+			<nav>
+				<ul class="lista">
+					<li><a href="index.html">inicio</a></li>
+					<li><a href="#caracteristica">caracteristica</a>
+						<ul>
+							<li><a href="#caracteristica">Descripcion</a></li>
+							<li><a href="#interfaz">Interfaz</a></li>
+							<li><a href="#home">Pantalla principal</a></li>
+						</ul>
+						<li><a href="#funcionalidad">Funcionalidad</a></li>
+					</li>
+					<li><a href="#resenas">Reseñas</a>
+						<ul>
+							<li><a href="#lugares">Explorar</a></li>
+							<li><a href="#valoraciones">Valoraciones</a></li>
+							<li><a href="#galeria">Galeria de imagenes</a></li>
+						</ul>
+					</li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="volver" class="section-principal ">
+			<div class="box-1">
+				<div class="column-1">
+					<h2><span class="titulo">DESCUBRE LUGARES</span> icónico para tu descanso</h2>
+					
+					<div class="btn-nav" >
+						<p>Descargala y probala gratis</p>
+						<div class="btn">
+							<a href="https://play.google.com/" target="_blank">Play Store</a>
+							<a href="https://www.apple.com/la/app-store/" target="_blank" class="btn-nav-b">App Store</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="column-2" >
+					<img src="./imagenes/home_01.png" alt="imagen de celular" title="Foto de un celular" />
+				</div>
+				<br clear="all" /> 
+			</div>
+		</section>
+		
+		<section id="caracteristica"> 
+			<div class="section-principal" id="descripcion">
+				<h2>Descripcion</h2>
+				<p>Nuestra app se basa exclusivamente en brindarle las mejores opciones de alojamiento del tipo cabañas,
+						casas con paisajes únicos rodeados de bosques con vistas maravillosas conectando así a propietarios del inmueble 
+						con usuarios que desean alejarse de la ciudad para vivir una aventura increíble. <br />
+						Ideal para mochileros, nómadas digitales, amantes de la aventura y personas apasionadas por la naturaleza.
+				</p>
+			</div>
+		</section>
+		<section id="interfaz">
+			<div class="section-principal">
+				<h2>Interfaz intuitiva y sencilla</h2>
+				<p> Regístrate en 3 sencillos pasos.</p>
+				
+				<div class="flex-container">
+					<div class="box-interfaz">
+						<h3>Registrate</h3>
+						<img src="imagenes/registrarte.png" alt="imagen de celular" title="Foto de un celular" />
+					</div>
+					<div class="box-interfaz">
+						<h3>Crear cuenta</h3>
+						<img src="imagenes/crear_cuenta.png" alt="imagen de celular" title="Foto de un celular" />
+					</div>
+					<div class="box-interfaz">
+						<h3>Inicia sesion</h3>			
+						<img src="imagenes/inicia_sesion.png" alt="imagen de celular" title="Foto de un celular" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="home">
+			<div class="section-principal">
+				<h2>Pantalla Principal</h2>
+				<div class="container-img">
+					<img src="imagenes/Scene_03.jpg" alt="imagen de celular" title="Foto de un celular" />
+				</div>
+				<div class="parrafo">
+					<p>
+						En esta sección de la aplicación el usuario encontrará  funcionalidades como explorar por categoría a través de los filtros predefinidos de la app, 
+						agregar a favoritos, o buscar mediante el buscador simplemente completando los lugares que desea explorar.					
+					<span class="parrafo-texto">Además, desplazándose hacia abajo podrá ver la disponibilidad o recomendaciones de los distintos alojamiento con su principales características.</span>
+					</p>
+				</div>				
+				<div class="both"><div/>
+			</div>
+		</section>
+		
+		<section id="newsletter">
+			<div class="section-principal">
+				<h2>Newsletter</h2>
+				<!--<p>Adherite a nuestra casilla de correo electronico</p>-->
+				<form class="form" action="pages/gracias.html" method="post">
+					<label for="fname">Adherite a nuestra casilla de correo electronico</label><br>
+					<input type="text" placeholder="@hotmail.com" id="fname" name="fname"><br>
+					<input id="submit" type="submit" value="Enviar">
+				</form>
+			</div>
+		</section>
+		
+		<section>
+			<div class="section-principal">
+				<div id="container-banner">		
+					<img src="banner/banner_01.jpg" alt="banner" title="banner" />
+					<img src="banner/banner_02.jpg" alt="banner" title="banner" />
+					<img src="banner/banner_03.jpg" alt="banner" title="banner" />
+					<img src="banner/banner_04.jpg" alt="banner" title="banner" />
+				</div>
+			</div>
+	</section>
+	
+		<section id="funcionalidad">
+			<div class="section-principal">
+					<div class="encabezado">
+						<h2>Funcionalidad</h2>
+						<p>Con nuestra app podras buscar hospedaje, agregar a favoritos reservar pagar y disfrutar al maximo.</p>
+					</div>
+					<div class="container-box-2">
+						<div class="box-2">
+							<img src="iconos/Icono_de_buscar.png" alt="icono de buscar" title="icono de buscar" width="20" height="20" />
+							<span>Buscar</span>
+						</div>
+						<div class="box-2">
+							<img src="iconos/favorito_01.png" alt="icono de favoritos" title="icono de favoritos" width="50" height="50" />
+							<p>Favoritos</p>
+						</div>
+						<div class="box-2">
+							<img src="iconos/Icono_de_Reservas_01.png" alt="icono de reservar" title="icono de reservar" width="50" height="50" />
+							<p>Reservar</p>
+						</div>
+						<div class="box-2">
+							<img src="iconos/attach_money.png" alt="icono de pagar" title="icono de pagar" width="50" height="50" />
+							<p>Pagar</p>
+						</div>
+						<div class="box-2">
+							<img src="iconos/Icono_de_Felicidad.png" alt="icono de felicidad" title="icono de felicidad" width="50" height="50" />
+							<p>Disfrutar</p>
+						</div>
+					</div>			
+			</div>			
+		</section>
+		
+		<section id="lugares">
+			<div class="section-principal">
+					<div class="subtitulo">
+						<h2>Explore</h2>
+						<p>Explore diferente regiones mediante nuestra seccion de categoria</p>
+					</div>
+					<div class="container-lugares">
+						<div>
+							<a href="#"><img src="iconos/bosque.png" alt="icono de bosque" title="icono de bosque" width="50" height="50"/></a>
+							<span>Bosque</span>
+						</div >
+						<div>
+							<a href="#"><img src="iconos/isla.png" alt="icono de isla" title="icono de isla" width="50" height="50" /></a>
+							<span>Isla</span>
+						</div>
+						<div>
+							<a href="#"><img src="iconos/montanas.png" alt="icono de montaña" title="icono de montaña" width="50" height="50"/></a>
+							<span>montaña</span>
+						</div>
+						<div>
+							<a href="#"><img src="iconos/desierto.png" alt="icono de desierto" title="icono de desierto" width="50" height="50" /></a>
+							<span>Desierto</span>
+						</div>
+						<div>
+							<a href="#"><img src="iconos/pradera.png" alt="icono de pradera" title="icono de pradera" width="50" height="50" /></a>
+							<span>Pradera</span>
+						</div>
+					</div>
+				</div>
+		</section>
+	
+		<section id="resenas">
+			<div class="section-principal">
+				<h2 class="subtitulo">Reseñas y valoraciones</h2>
+				<div class="container-resenas">
+					<div><i class="bi bi-plus-lg" ></i><span>12.500K Descargas</span></div>
+					<div><i class="bi bi-plus-lg" ></i> <span>7.800K usuarios satisfecho</span></div>
+					<div><i class="bi bi-plus-lg" ></i><span>1.900K comentarios positivo</span></div>
+					<div><i class="bi bi-plus-lg" ></i><span>5.000K Miembros</span></div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="valoraciones">
+			<div class="section-principal">
+				<h2>Opiniones de usuarios</h2>
+				<div class="container-card">
+				<div class="card">
+					<img src="imagenes/Perfil_01.jpg" alt="Avatar" height="300">
+					<div class="card-dos">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<h4>Amanda Velez</h4> 
+						<p>Arquitectura de Software</p> 
+					</div>
+				</div>
+				<div class="card">
+					<img src="imagenes/Perfil_03.jpg" alt="Avatar" height="300">
+					<div class="card-dos">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<h4>Marcelo Prediger</h4> 
+						<p>Community Manager</p> 
+					</div>
+				</div>
+				<div class="card">
+					<img src="imagenes/Perfil_02.jpg" alt="Avatar" height="300">
+					<div class="card-dos">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						<h4>Alejandra Russo</h4> 
+						<p>Diseñadora Grafica</p> 
+					</div>
+				</div>
+			</div>
+			</div>		
+		</section>
+		
+		<section>
+			<div class="social">
+				<ul>
+					<li class="facebook"><a href="https://www.facebook.com/"  target="_blank">Facebook</a></li>
+					<li class="google"><a href="http://www.google.com" target="_blank">Google  </a></li>
+					<li class="twitter"><a href="http://www.twitter.com" target="_blank">Twitter </a></li>
+					<li class="linkedin"><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
+				</ul>
+			</div>
+		</section>
+		
+		
+		<section id="galeria">
+			<div class="section-principal">
+				<h2>Galeria de imagenes</h2>
+				<div class="container-image">
+					<a href="imagenes/imagen_01.jpg" class="glightbox"><img src="imagenes/imagen_01.jpg" alt="cabañas-bosques" title="Imagen de paisaje "/></a>
+					<a href="imagenes/imagen_02.jpg" class="glightbox"><img src="imagenes/imagen_02.jpg" alt="cabaña" title="Imagen de cabaña "/></a>
+					<a href="imagenes/imagen_03.jpg" class="glightbox" ><img src="imagenes/imagen_03.jpg" alt="cabaña" title="Imagen de cabaña "/></a>
+					<a href="imagenes/imagen_04.jpg" class="glightbox"><img src="imagenes/imagen_04.jpg" alt="cabaña" title="Imagen de cabaña"/></a>
+					<!--<img src="imagenes/imagen_05.jpg" alt="cabaña" width="300" height="200" title="Imagen de cabaña " />-->
+				</div>
+			</div>
+		</section>
+		
+		<section id="contacto">
+			
+			<div class="section-principal">
+				<h2 class="subtitulo">Contacto</h2>
+				
+				<div class="container-box-3">
+				
+					<div class="caja-uno">
+						<div>
+							<i class="bi bi-houses"></i>
+							<div class="texto-contacto">
+								<span>Direccion</span>
+								<span>Av Siempre Viva 745, Sprinfield</span>
+							</div>
+						</div>
+						<div>
+							<i class="bi bi-telephone"></i>
+							<div class="texto-contacto">
+								<p>Telefono</p>
+								<span>541138496475</span>
+							</div>
+						</div>
+						<div>
+							<i class="bi bi-envelope"></i>
+							<div class="texto-contacto">
+								<span >Correo electronico</span>
+								<span>zarasa@gmail.com</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="caja-dos">
+						<h2><span class="parrafo">Descubre tu</span> proximo destino</h2>
+						<p class="parrafo-dos">Comunicate con nosotros a nuestro correo!!!</p>
+						
+						<form action="pages/contacto.html" method="get" class="form">
+							<div class="input-name"><label for="name">Nombre</label>
+								<input type="text" name="name" id="name" placeholder="Nombre" required />
+							</div>
+							<div class="input-name"><label for="lastname">Apellido</label>
+								<input type="text" placeholder="Apellido" id="lastname" name="lastname" required />
+							</div>
+							<div><label for="email">Correo electronico	</label>
+								<input type="text" placeholder="Ingrese su email" id="email" name="email" required>
+							</div>
+							<div><p>Escriba su mensaje</p>
+								<textarea name="Texto" cols="30" rows="8" placeholder="Escriba su mensaje"></textarea>
+							</div>
+							<div><input type="submit" value="Enviar mensaje" /></div>
+						</form>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<!--<a href="#inicio" class="btn-inicio-1"><img src="iconos/Boton-Volver_01.png" alt="icono de volver" width="40" height="35" /></a>-->
+			<a href="#volver" class="btn-inicio-1"><i class="bi bi-arrow-up"></i></a>
+		</section>
+	</main>
+	
+	
+	<footer id="footer">
+		<div class="section-principal">	
+			<div class="container-footer">
+				<h1><a href="#">Logo App</a></h1>
+				<div>
+					<ul class="container-condiciones">
+						<li><a href="#">Terminos y condiciones</a></li>
+						<li><a href="#">Politica de privacidad</a></li>
+						<li><a href="#">Copyright</a></li>
+						<li><a href="#">Preguntas</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul class="container-lista">
+						<li><a href="http://www.facebook.com" target="_blank" ><i class="fa-brands fa-square-facebook"></i></a></li>
+						<li><a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="http://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>				
+					</ul>
+				</div>
+			</div>
+			
+			<p class="texto-footer">App diseñada por alumnos de <abbr title="Instituto Sudamericano para la Enseñanza de la comunicación">ISEC</abbr> - Selena Garcia y Guillermo Chavez</p>
+			<p class="texto-footer derecho">2025 - Todos los derechos reservados</p>
+		</div>	
+	</footer>
+	
+	<script type="text/javascript">
+		const lightbox = GLightbox({ });
+	</script>
+</body>
+</html>	
